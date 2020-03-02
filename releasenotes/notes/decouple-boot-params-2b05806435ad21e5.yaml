@@ -1,0 +1,6 @@
+---
+fixes:
+  - |
+    Improves interoperability with Redfish BMCs by untying node boot
+    mode change from other boot parameters change (such as boot device,
+    boot frequency).

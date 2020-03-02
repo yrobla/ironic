@@ -141,6 +141,7 @@
     parent: ironic-base
     timeout: 5400
     required-projects:
+      - openstack/sushy  # TODO(etingof): remove once Depends-On: is merged
       - openstack/sushy-tools
     vars:
       devstack_localrc:
